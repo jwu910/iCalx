@@ -10,4 +10,4 @@ const ics = (vEvent: iVEvent): string => {
 	return "";
 };
 
-export default ics;
+export {ics};

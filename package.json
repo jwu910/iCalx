@@ -2,9 +2,11 @@
   "name": "ics.ts",
   "version": "0.0.1",
   "description": ":construction:",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"This is not the test you are looking for\""
+    "build": "tsc",
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,5 @@
   "homepage": "https://github.com/jwu910/ics.ts#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
-  },
-  "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch"
   }
 }
