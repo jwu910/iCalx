@@ -1,19 +1,19 @@
 {
   "name": "ics.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ":construction:",
   "files": [
-	"dist",
-	"LICENSE",
-	"README.md"
+    "dist",
+    "LICENSE",
+    "README.md"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-	"commit": "npx git-cz",
+    "commit": "npx git-cz",
     "dev": "tsc --watch",
-	"prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
