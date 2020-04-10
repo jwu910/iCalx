@@ -1,0 +1,26 @@
+{
+  "name": "ics.ts",
+  "version": "0.0.1",
+  "description": ":construction:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"This is not the test you are looking for\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwu910/ics.ts.git"
+  },
+  "author": "Joshua Wu <jwu910@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwu910/ics.ts/issues"
+  },
+  "homepage": "https://github.com/jwu910/ics.ts#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
