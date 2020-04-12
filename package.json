@@ -1,5 +1,5 @@
 {
-  "name": "ics.ts",
+  "name": "iCalx",
   "version": "0.0.2",
   "description": ":construction:",
   "files": [
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwu910/ics.ts.git"
+    "url": "git+https://github.com/jwu910/iCalx.git"
   },
   "author": "Joshua Wu <jwu910@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jwu910/ics.ts/issues"
+    "url": "https://github.com/jwu910/iCalx/issues"
   },
-  "homepage": "https://github.com/jwu910/ics.ts#readme",
+  "homepage": "https://github.com/jwu910/iCalx#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.1.0",
     "typescript": "^3.8.3"
