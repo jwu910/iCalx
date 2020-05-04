@@ -1,3 +1,6 @@
+import ICAL from 'ical.js';
+import React from 'react';
+
 interface iVEvent {
 	description: string;
 	duration: iDuration;
@@ -20,11 +23,6 @@ type iDate = {
 
 const iCalx = (vEvent: iVEvent): string => {
 	console.log('ho')
-
-	const retVal: string[] = [
-		'BEGIN:VCALENDAR',
-		'VERSION: 2.0'
-	]
 
 
 	return vEvent.subject

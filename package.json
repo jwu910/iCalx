@@ -25,6 +25,10 @@
     "url": "https://github.com/jwu910/iCalx/issues"
   },
   "homepage": "https://github.com/jwu910/iCalx#readme",
+  "dependencies": {
+    "ical.js": "^1.4.0",
+    "react": "^16.13.1"
+  },
   "devDependencies": {
     "cz-conventional-changelog": "^3.1.0",
     "typescript": "^3.8.3"
